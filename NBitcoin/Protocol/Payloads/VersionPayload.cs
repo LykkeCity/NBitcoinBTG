@@ -1,5 +1,5 @@
 ﻿#if !NOSOCKET
-using NBitcoin.DataEncoders;
+using NBitcoinBTG.DataEncoders;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ using System.Reflection;
 using Windows.ApplicationModel;
 #endif
 
-namespace NBitcoin.Protocol
+namespace NBitcoinBTG.Protocol
 {
 	[Flags]
 	public enum NodeServices : ulong
@@ -47,7 +47,7 @@ namespace NBitcoin.Protocol
 	public class VersionPayload : Payload, IBitcoinSerializable
 	{
 		static string _NUserAgent;
-		public static string GetNBitcoinUserAgent()
+		public static string GetNBitcoinBTGUserAgent()
 		{
 			if(_NUserAgent == null)
 			{
@@ -55,14 +55,14 @@ namespace NBitcoin.Protocol
 				// get the app version
 				Package package = Package.Current;
 				var version = package.Id.Version;
-				_NUserAgent = "/NBitcoin:" + version.Major + "." + version.Minor + "." + version.Build + "/";
+				_NUserAgent = "/NBitcoinBTG:" + version.Major + "." + version.Minor + "." + version.Build + "/";
 #else
 #if !NETCORE
 				var version = typeof(VersionPayload).Assembly.GetName().Version;
 #else
 				var version = typeof(VersionPayload).GetTypeInfo().Assembly.GetName().Version;
 #endif
-				_NUserAgent = "/NBitcoin:" + version.Major + "." + version.MajorRevision + "." + version.Build + "/";
+				_NUserAgent = "/NBitcoinBTG:" + version.Major + "." + version.MajorRevision + "." + version.Build + "/";
 #endif
 
 			}

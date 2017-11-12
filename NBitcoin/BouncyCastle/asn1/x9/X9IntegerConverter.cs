@@ -1,9 +1,9 @@
 using System;
 
-using NBitcoin.BouncyCastle.Math;
-using NBitcoin.BouncyCastle.Math.EC;
+using NBitcoinBTG.BouncyCastle.Math;
+using NBitcoinBTG.BouncyCastle.Math.EC;
 
-namespace NBitcoin.BouncyCastle.Asn1.X9
+namespace NBitcoinBTG.BouncyCastle.Asn1.X9
 {
 	internal abstract class X9IntegerConverter
 	{

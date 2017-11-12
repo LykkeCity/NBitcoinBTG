@@ -1,6 +1,6 @@
 ﻿#if !NOJSONNET
-using NBitcoin.DataEncoders;
-using NBitcoin.Protocol;
+using NBitcoinBTG.DataEncoders;
+using NBitcoinBTG.Protocol;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
@@ -13,7 +13,7 @@ using System.Runtime.ExceptionServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.RPC
+namespace NBitcoinBTG.RPC
 {
 	public class RPCAccount
 	{
@@ -266,14 +266,14 @@ namespace NBitcoin.RPC
 			};
 		}
 
-		//NBitcoin internally put a bit in the version number to make difference between transaction without input and transaction with witness.
+		//NBitcoinBTG internally put a bit in the version number to make difference between transaction without input and transaction with witness.
 		private string ToHex(Transaction tx)
 		{
 			// if there is inputs, then it can't be confusing
 			if(tx.Inputs.Count > 0)
 				return tx.ToHex();
-			// if there is, do this ACK so that NBitcoin does not change the version number
-			return Encoders.Hex.EncodeData(tx.ToBytes(NBitcoin.Protocol.ProtocolVersion.WITNESS_VERSION - 1));
+			// if there is, do this ACK so that NBitcoinBTG does not change the version number
+			return Encoders.Hex.EncodeData(tx.ToBytes(NBitcoinBTG.Protocol.ProtocolVersion.WITNESS_VERSION - 1));
 		}
 
 

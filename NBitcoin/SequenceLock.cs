@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public class SequenceLock
 	{

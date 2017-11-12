@@ -1,7 +1,7 @@
 ﻿#if !NOSOCKET
-using NBitcoin.DataEncoders;
-using NBitcoin.Protocol;
-using NBitcoin.RPC;
+using NBitcoinBTG.DataEncoders;
+using NBitcoinBTG.Protocol;
+using NBitcoinBTG.RPC;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -17,7 +17,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Collections;
 
-namespace NBitcoin.Tests
+namespace NBitcoinBTG.Tests
 {
 	public enum CoreNodeState
 	{

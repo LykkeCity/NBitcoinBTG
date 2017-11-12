@@ -2,10 +2,10 @@ using System;
 using System.IO;
 using System.Text;
 
-using NBitcoin.BouncyCastle.Math;
-using NBitcoin.BouncyCastle.Utilities;
+using NBitcoinBTG.BouncyCastle.Math;
+using NBitcoinBTG.BouncyCastle.Utilities;
 
-namespace NBitcoin.BouncyCastle.Asn1
+namespace NBitcoinBTG.BouncyCastle.Asn1
 {
 	internal class DerObjectIdentifier
 		: Asn1Object

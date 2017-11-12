@@ -1,7 +1,7 @@
 ﻿#if !NOJSONNET
 #if !NOSOCKET
-using NBitcoin.Protocol;
-using NBitcoin.Protocol.Behaviors;
+using NBitcoinBTG.Protocol;
+using NBitcoinBTG.Protocol.Behaviors;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NBitcoin.SPV
+namespace NBitcoinBTG.SPV
 {
 	public enum FilterState
 	{

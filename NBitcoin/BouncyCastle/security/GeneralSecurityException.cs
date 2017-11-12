@@ -1,6 +1,6 @@
 using System;
 
-namespace NBitcoin.BouncyCastle.Security
+namespace NBitcoinBTG.BouncyCastle.Security
 {
 	internal class GeneralSecurityException
 		: Exception

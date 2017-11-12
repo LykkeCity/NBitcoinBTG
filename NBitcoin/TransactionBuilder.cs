@@ -1,18 +1,18 @@
-﻿using NBitcoin.BuilderExtensions;
-using NBitcoin.Crypto;
-using NBitcoin.DataEncoders;
-using NBitcoin.OpenAsset;
-using NBitcoin.Policy;
-using NBitcoin.Stealth;
+﻿using NBitcoinBTG.BuilderExtensions;
+using NBitcoinBTG.Crypto;
+using NBitcoinBTG.DataEncoders;
+using NBitcoinBTG.OpenAsset;
+using NBitcoinBTG.Policy;
+using NBitcoinBTG.Stealth;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.ExceptionServices;
 using System.Text;
 using System.Threading.Tasks;
-using Builder = System.Func<NBitcoin.TransactionBuilder.TransactionBuildingContext, NBitcoin.IMoney>;
+using Builder = System.Func<NBitcoinBTG.TransactionBuilder.TransactionBuildingContext, NBitcoinBTG.IMoney>;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	[Flags]
 	public enum ChangeType : int
@@ -167,7 +167,7 @@ namespace NBitcoin
 	}
 
 	/// <summary>
-	/// A class for building and signing all sort of transactions easily (http://www.codeproject.com/Articles/835098/NBitcoin-Build-Them-All)
+	/// A class for building and signing all sort of transactions easily (http://www.codeproject.com/Articles/835098/NBitcoinBTG-Build-Them-All)
 	/// </summary>
 	public class TransactionBuilder
 	{
@@ -1020,7 +1020,7 @@ namespace NBitcoin
 		/// </summary>
 		/// <param name="sign">True if signs all inputs with the available keys</param>
 		/// <returns>The transaction</returns>
-		/// <exception cref="NBitcoin.NotEnoughFundsException">Not enough funds are available</exception>
+		/// <exception cref="NBitcoinBTG.NotEnoughFundsException">Not enough funds are available</exception>
 		public Transaction BuildTransaction(bool sign)
 		{
 			return BuildTransaction(sign, SigHash.All);
@@ -1032,7 +1032,7 @@ namespace NBitcoin
 		/// <param name="sign">True if signs all inputs with the available keys</param>
 		/// <param name="sigHash">The type of signature</param>
 		/// <returns>The transaction</returns>
-		/// <exception cref="NBitcoin.NotEnoughFundsException">Not enough funds are available</exception>
+		/// <exception cref="NBitcoinBTG.NotEnoughFundsException">Not enough funds are available</exception>
 		public Transaction BuildTransaction(bool sign, SigHash sigHash)
 		{
 			TransactionBuildingContext ctx = new TransactionBuildingContext(this);

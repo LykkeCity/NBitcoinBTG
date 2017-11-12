@@ -1,8 +1,8 @@
-﻿using NBitcoin.BitcoinCore;
-using NBitcoin.Policy;
+﻿using NBitcoinBTG.BitcoinCore;
+using NBitcoinBTG.Policy;
 using System.Linq;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 
 	public static class StandardScripts

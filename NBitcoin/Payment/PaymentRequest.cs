@@ -1,5 +1,5 @@
-﻿using NBitcoin.Crypto;
-using NBitcoin.Protobuf;
+﻿using NBitcoinBTG.Crypto;
+using NBitcoinBTG.Protobuf;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -15,7 +15,7 @@ using System.Security.Cryptography.X509Certificates;
 #endif
 using System.Threading.Tasks;
 
-namespace NBitcoin.Payment
+namespace NBitcoinBTG.Payment
 {
 	public enum PKIType
 	{

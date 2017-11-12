@@ -1,6 +1,6 @@
-﻿using NBitcoin.Crypto;
-using NBitcoin.DataEncoders;
-using NBitcoin.Protocol;
+﻿using NBitcoinBTG.Crypto;
+using NBitcoinBTG.DataEncoders;
+using NBitcoinBTG.Protocol;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -16,7 +16,7 @@ using Xunit;
 using Newtonsoft.Json.Linq;
 using System.Runtime.InteropServices;
 
-namespace NBitcoin.Tests
+namespace NBitcoinBTG.Tests
 {
 	public class script_tests
 	{

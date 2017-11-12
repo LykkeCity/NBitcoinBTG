@@ -1,10 +1,10 @@
 using System;
 
-using NBitcoin.BouncyCastle.Math;
-using NBitcoin.BouncyCastle.Math.EC;
-using NBitcoin.BouncyCastle.Utilities;
+using NBitcoinBTG.BouncyCastle.Math;
+using NBitcoinBTG.BouncyCastle.Math.EC;
+using NBitcoinBTG.BouncyCastle.Utilities;
 
-namespace NBitcoin.BouncyCastle.Crypto.Parameters
+namespace NBitcoinBTG.BouncyCastle.Crypto.Parameters
 {
 	internal class ECDomainParameters
 	{

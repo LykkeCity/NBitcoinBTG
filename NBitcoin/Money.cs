@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using NBitcoin.OpenAsset;
+using NBitcoinBTG.OpenAsset;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public static class MoneyExtensions
 	{

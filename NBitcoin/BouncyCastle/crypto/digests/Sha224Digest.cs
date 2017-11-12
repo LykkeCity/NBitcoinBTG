@@ -1,9 +1,9 @@
 using System;
 
-using NBitcoin.BouncyCastle.Crypto.Utilities;
-using NBitcoin.BouncyCastle.Utilities;
+using NBitcoinBTG.BouncyCastle.Crypto.Utilities;
+using NBitcoinBTG.BouncyCastle.Utilities;
 
-namespace NBitcoin.BouncyCastle.Crypto.Digests
+namespace NBitcoinBTG.BouncyCastle.Crypto.Digests
 {
 	/**
      * SHA-224 as described in RFC 3874

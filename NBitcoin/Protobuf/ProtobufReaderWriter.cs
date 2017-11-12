@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.Protobuf
+namespace NBitcoinBTG.Protobuf
 {
 	internal class ProtobufReaderWriter
 	{

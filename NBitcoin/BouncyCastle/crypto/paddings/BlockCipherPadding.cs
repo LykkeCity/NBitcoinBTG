@@ -1,7 +1,7 @@
-using NBitcoin.BouncyCastle.Security;
+using NBitcoinBTG.BouncyCastle.Security;
 
 
-namespace NBitcoin.BouncyCastle.Crypto.Paddings
+namespace NBitcoinBTG.BouncyCastle.Crypto.Paddings
 {
 	/**
      * Block cipher padders are expected to conform to this interface

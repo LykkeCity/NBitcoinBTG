@@ -6,7 +6,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public class RNGCryptoServiceProviderRandom : IRandom
 	{
@@ -44,7 +44,7 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public class RandomNumberGeneratorRandom : IRandom
 	{
@@ -82,7 +82,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public partial class RandomUtils
 	{

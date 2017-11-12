@@ -1,7 +1,7 @@
-﻿using NBitcoin.BouncyCastle.Math;
-using NBitcoin.Crypto;
-using NBitcoin.DataEncoders;
-using NBitcoin.RPC;
+﻿using NBitcoinBTG.BouncyCastle.Math;
+using NBitcoinBTG.Crypto;
+using NBitcoinBTG.DataEncoders;
+using NBitcoinBTG.RPC;
 #if !NOJSONNET
 using Newtonsoft.Json.Linq;
 #endif
@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	/// <summary>
 	/// Nodes collect new transactions into a block, hash them into a hash tree,

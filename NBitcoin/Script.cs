@@ -1,13 +1,13 @@
 ﻿using System.Runtime.InteropServices;
-using NBitcoin.Crypto;
-using NBitcoin.DataEncoders;
+using NBitcoinBTG.Crypto;
+using NBitcoinBTG.DataEncoders;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	/// <summary>
 	/// Script verification flags

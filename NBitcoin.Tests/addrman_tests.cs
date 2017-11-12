@@ -1,6 +1,6 @@
 ﻿#if !NOSOCKET
-using NBitcoin.DataEncoders;
-using NBitcoin.Protocol;
+using NBitcoinBTG.DataEncoders;
+using NBitcoinBTG.Protocol;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -11,7 +11,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace NBitcoin.Tests
+namespace NBitcoinBTG.Tests
 {
 	public class addrman_tests
 	{

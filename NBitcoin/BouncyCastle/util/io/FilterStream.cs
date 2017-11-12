@@ -1,6 +1,6 @@
 using System.IO;
 
-namespace NBitcoin.BouncyCastle.Utilities.IO
+namespace NBitcoinBTG.BouncyCastle.Utilities.IO
 {
 	internal class FilterStream : Stream
 	{

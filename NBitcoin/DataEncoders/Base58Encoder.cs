@@ -1,10 +1,10 @@
-﻿using NBitcoin.BouncyCastle.Math;
-using NBitcoin.Crypto;
+﻿using NBitcoinBTG.BouncyCastle.Math;
+using NBitcoinBTG.Crypto;
 using System;
 using System.Linq;
 using System.Text;
 
-namespace NBitcoin.DataEncoders
+namespace NBitcoinBTG.DataEncoders
 {
 	public class Base58CheckEncoder : Base58Encoder
 	{

@@ -4,10 +4,10 @@ using System.Diagnostics;
 using System.Globalization;
 using System.Text;
 
-using NBitcoin.BouncyCastle.Security;
-using NBitcoin.BouncyCastle.Utilities;
+using NBitcoinBTG.BouncyCastle.Security;
+using NBitcoinBTG.BouncyCastle.Utilities;
 
-namespace NBitcoin.BouncyCastle.Math
+namespace NBitcoinBTG.BouncyCastle.Math
 {
 	public class BigInteger
 	{

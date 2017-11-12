@@ -1,7 +1,8 @@
 
 # NBitcoinBTG
+
 The NBitcoin library supporting Bitcoin Gold
-=======
+
 # NBitcoin
 
 [![Join the chat at https://gitter.im/MetacoSA/NBitcoin](https://badges.gitter.im/MetacoSA/NBitcoin.svg)](https://gitter.im/MetacoSA/NBitcoin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)

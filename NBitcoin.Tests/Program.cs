@@ -4,7 +4,7 @@
 //using System.Text;
 //using System.Threading.Tasks;
 
-//namespace NBitcoin.Tests
+//namespace NBitcoinBTG.Tests
 //{
 //	public class Program
 //	{

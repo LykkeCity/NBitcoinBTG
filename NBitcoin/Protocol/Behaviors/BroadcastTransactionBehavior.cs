@@ -5,10 +5,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NBitcoin;
+using NBitcoinBTG;
 using System.Threading;
 
-namespace NBitcoin.Protocol.Behaviors
+namespace NBitcoinBTG.Protocol.Behaviors
 {
 	public delegate void TransactionBroadcastedDelegate(Transaction transaction);
 	public delegate void TransactionRejectedDelegate(Transaction transaction, RejectPayload reject);

@@ -1,8 +1,8 @@
 using System;
 
-using NBitcoin.BouncyCastle.Security;
+using NBitcoinBTG.BouncyCastle.Security;
 
-namespace NBitcoin.BouncyCastle.Crypto.Paddings
+namespace NBitcoinBTG.BouncyCastle.Crypto.Paddings
 {
 	/**
 	* A wrapper class that allows block ciphers to be used to process data in

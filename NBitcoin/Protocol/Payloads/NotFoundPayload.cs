@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.Protocol
+namespace NBitcoinBTG.Protocol
 {
 	/// <summary>
 	/// A getdata message for an asked hash is not found by the remote peer

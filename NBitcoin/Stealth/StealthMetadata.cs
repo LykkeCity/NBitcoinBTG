@@ -1,4 +1,4 @@
-﻿using NBitcoin.Crypto;
+﻿using NBitcoinBTG.Crypto;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.Stealth
+namespace NBitcoinBTG.Stealth
 {
 	public class StealthMetadata
 	{

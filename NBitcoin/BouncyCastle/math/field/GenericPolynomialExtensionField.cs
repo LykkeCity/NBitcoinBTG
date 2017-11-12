@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NBitcoin.BouncyCastle.Math.Field
+namespace NBitcoinBTG.BouncyCastle.Math.Field
 {
 	internal class GenericPolynomialExtensionField
 		: IPolynomialExtensionField

@@ -1,4 +1,4 @@
-﻿using NBitcoin.DataEncoders;
+﻿using NBitcoinBTG.DataEncoders;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.OpenAsset
+namespace NBitcoinBTG.OpenAsset
 {
 	public class ColorMarker : IBitcoinSerializable
 	{

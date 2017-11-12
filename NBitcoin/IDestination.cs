@@ -1,4 +1,4 @@
-﻿namespace NBitcoin
+﻿namespace NBitcoinBTG
 {
 	/// <summary>
 	/// Represent any type which represent an underlying ScriptPubKey

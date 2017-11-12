@@ -1,4 +1,4 @@
-﻿namespace NBitcoin.Protocol
+﻿namespace NBitcoinBTG.Protocol
 {
 	/// <summary>
 	/// Network protocol versioning

@@ -1,6 +1,6 @@
 ﻿#if !NOJSONNET
-using NBitcoin.DataEncoders;
-using NBitcoin.Protocol;
+using NBitcoinBTG.DataEncoders;
+using NBitcoinBTG.Protocol;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
@@ -15,7 +15,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NBitcoin.RPC
+namespace NBitcoinBTG.RPC
 {
 	/*
 		Category			Name						Implemented 
@@ -275,7 +275,7 @@ namespace NBitcoin.RPC
 		private string GetCookiePath()
 		{
 			if(CredentialString.UseDefault && Network == null)
-				throw new InvalidOperationException("NBitcoin bug, report to the developers");
+				throw new InvalidOperationException("NBitcoinBTG bug, report to the developers");
 			if(CredentialString.UseDefault)
 				return GetDefaultCookieFilePath(Network);
 			if(CredentialString.CookieFile != null)
@@ -628,7 +628,7 @@ namespace NBitcoin.RPC
 		private void RenewCookie()
 		{
 			if(GetCookiePath() == null)
-				throw new InvalidOperationException("Bug in NBitcoin notify the developers");
+				throw new InvalidOperationException("Bug in NBitcoinBTG notify the developers");
 #if !NOFILEIO
 			var auth = File.ReadAllText(GetCookiePath());
 			if(!auth.StartsWith("__cookie__:", StringComparison.OrdinalIgnoreCase))
@@ -641,7 +641,7 @@ namespace NBitcoin.RPC
 		private void TryRenewCookie(WebException ex)
 		{
 			if(GetCookiePath() == null)
-				throw new InvalidOperationException("Bug in NBitcoin notify the developers");
+				throw new InvalidOperationException("Bug in NBitcoinBTG notify the developers");
 
 #if !NOFILEIO
 			try

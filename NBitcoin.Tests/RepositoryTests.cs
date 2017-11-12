@@ -1,13 +1,13 @@
 ﻿#if !NOFILEIO
-using NBitcoin.BitcoinCore;
-using NBitcoin.Crypto;
-using NBitcoin.DataEncoders;
-using NBitcoin.OpenAsset;
-using NBitcoin.Protocol;
-using NBitcoin.Protocol.Behaviors;
-using NBitcoin.RPC;
-using NBitcoin.SPV;
-using NBitcoin.Stealth;
+using NBitcoinBTG.BitcoinCore;
+using NBitcoinBTG.Crypto;
+using NBitcoinBTG.DataEncoders;
+using NBitcoinBTG.OpenAsset;
+using NBitcoinBTG.Protocol;
+using NBitcoinBTG.Protocol.Behaviors;
+using NBitcoinBTG.RPC;
+using NBitcoinBTG.SPV;
+using NBitcoinBTG.Stealth;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -23,7 +23,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace NBitcoin.Tests
+namespace NBitcoinBTG.Tests
 {
 	public class RepositoryTests
 	{

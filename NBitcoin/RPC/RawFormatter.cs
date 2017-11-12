@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.IO;
 
-namespace NBitcoin.RPC
+namespace NBitcoinBTG.RPC
 {
 	abstract class RawFormatter
 	{

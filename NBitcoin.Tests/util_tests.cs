@@ -1,9 +1,9 @@
-﻿using NBitcoin.BouncyCastle.Math;
-using NBitcoin.Crypto;
-using NBitcoin.DataEncoders;
-using NBitcoin.JsonConverters;
-using NBitcoin.OpenAsset;
-using NBitcoin.RPC;
+﻿using NBitcoinBTG.BouncyCastle.Math;
+using NBitcoinBTG.Crypto;
+using NBitcoinBTG.DataEncoders;
+using NBitcoinBTG.JsonConverters;
+using NBitcoinBTG.OpenAsset;
+using NBitcoinBTG.RPC;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Diagnostics;
@@ -12,7 +12,7 @@ using System.Linq;
 using System.Text;
 using Xunit;
 
-namespace NBitcoin.Tests
+namespace NBitcoinBTG.Tests
 {
 	public class util_tests
 	{

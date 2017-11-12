@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.OpenAsset
+namespace NBitcoinBTG.OpenAsset
 {
 	public class AssetMoney : IComparable, IComparable<AssetMoney>, IEquatable<AssetMoney>, IMoney
 	{

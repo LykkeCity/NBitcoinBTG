@@ -1,8 +1,8 @@
 using System;
 
-using NBitcoin.BouncyCastle.Utilities;
+using NBitcoinBTG.BouncyCastle.Utilities;
 
-namespace NBitcoin.BouncyCastle.Crypto.Digests
+namespace NBitcoinBTG.BouncyCastle.Crypto.Digests
 {
 	/**
     * base implementation of MD4 family style digest as outlined in

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.BitcoinCore
+namespace NBitcoinBTG.BitcoinCore
 {
 	public interface IBlockProvider
 	{

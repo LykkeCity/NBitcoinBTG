@@ -1,10 +1,10 @@
-﻿using NBitcoin.Crypto;
-using NBitcoin.BouncyCastle.Math;
+﻿using NBitcoinBTG.Crypto;
+using NBitcoinBTG.BouncyCastle.Math;
 using System;
 using System.Linq;
 using System.Text;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public class Key : IBitcoinSerializable, IDestination
 	{

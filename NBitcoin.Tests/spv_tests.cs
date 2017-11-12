@@ -1,7 +1,7 @@
 ﻿#if !NOSOCKET
-using NBitcoin.Protocol;
-using NBitcoin.Protocol.Behaviors;
-using NBitcoin.SPV;
+using NBitcoinBTG.Protocol;
+using NBitcoinBTG.Protocol.Behaviors;
+using NBitcoinBTG.SPV;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Concurrent;
@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 using Xunit;
 using Xunit.Sdk;
 
-namespace NBitcoin.Tests
+namespace NBitcoinBTG.Tests
 {
 	public class BlockchainBuilder
 	{

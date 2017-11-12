@@ -1,6 +1,6 @@
 using System.IO;
 
-namespace NBitcoin.BouncyCastle.Utilities.Encoders
+namespace NBitcoinBTG.BouncyCastle.Utilities.Encoders
 {
 	/// <summary>
 	/// Class to decode and encode Hex.

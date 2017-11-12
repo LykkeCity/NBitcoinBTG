@@ -1,12 +1,12 @@
-﻿using NBitcoin.Crypto;
-using NBitcoin.DataEncoders;
+﻿using NBitcoinBTG.Crypto;
+using NBitcoinBTG.DataEncoders;
 using System;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public class TransactionSignature
 	{
-		static readonly TransactionSignature _Empty = new TransactionSignature(new ECDSASignature(NBitcoin.BouncyCastle.Math.BigInteger.ValueOf(0), NBitcoin.BouncyCastle.Math.BigInteger.ValueOf(0)), SigHash.All);
+		static readonly TransactionSignature _Empty = new TransactionSignature(new ECDSASignature(NBitcoinBTG.BouncyCastle.Math.BigInteger.ValueOf(0), NBitcoinBTG.BouncyCastle.Math.BigInteger.ValueOf(0)), SigHash.All);
 		public static TransactionSignature Empty
 		{
 			get

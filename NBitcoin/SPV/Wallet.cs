@@ -1,8 +1,8 @@
 ﻿#if !NOJSONNET
 #if !NOSOCKET
-using NBitcoin.DataEncoders;
-using NBitcoin.Protocol;
-using NBitcoin.Protocol.Behaviors;
+using NBitcoinBTG.DataEncoders;
+using NBitcoinBTG.Protocol;
+using NBitcoinBTG.Protocol.Behaviors;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
@@ -15,7 +15,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NBitcoin.SPV
+namespace NBitcoinBTG.SPV
 {
 	public enum WalletState
 	{

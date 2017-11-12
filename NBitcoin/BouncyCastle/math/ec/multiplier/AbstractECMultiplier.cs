@@ -1,4 +1,4 @@
-﻿namespace NBitcoin.BouncyCastle.Math.EC.Multiplier
+﻿namespace NBitcoinBTG.BouncyCastle.Math.EC.Multiplier
 {
 	internal abstract class AbstractECMultiplier
 		: ECMultiplier

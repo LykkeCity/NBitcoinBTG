@@ -1,4 +1,4 @@
-﻿namespace NBitcoin.BouncyCastle.Math.EC
+﻿namespace NBitcoinBTG.BouncyCastle.Math.EC
 {
 	internal class ScaleXPointMap
 		: ECPointMap

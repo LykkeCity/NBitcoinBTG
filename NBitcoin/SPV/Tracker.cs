@@ -1,8 +1,8 @@
 ﻿#if !NOJSONNET
 #if !NOSOCKET
-using NBitcoin.Crypto;
-using NBitcoin.DataEncoders;
-using NBitcoin.Protocol;
+using NBitcoinBTG.Crypto;
+using NBitcoinBTG.DataEncoders;
+using NBitcoinBTG.Protocol;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
@@ -14,7 +14,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.SPV
+namespace NBitcoinBTG.SPV
 {
 	/// <summary>
 	/// Idempotent and thread safe for tracking operations belonging to a set of ScriptPubKeys

@@ -1,4 +1,4 @@
-﻿using NBitcoin.Crypto;
+﻿using NBitcoinBTG.Crypto;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.BitcoinCore
+namespace NBitcoinBTG.BitcoinCore
 {
 	/** Undo information for a CTxIn
  *
@@ -20,7 +20,7 @@ namespace NBitcoin.BitcoinCore
 		{
 
 		}
-		public TxInUndo(NBitcoin.TxOut txOut)
+		public TxInUndo(NBitcoinBTG.TxOut txOut)
 		{
 			this.TxOut = txOut;
 		}

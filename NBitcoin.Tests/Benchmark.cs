@@ -1,8 +1,8 @@
 ﻿#if !NOFILEIO
-using NBitcoin.BitcoinCore;
-using NBitcoin.Crypto;
-using NBitcoin.OpenAsset;
-using NBitcoin.Protocol;
+using NBitcoinBTG.BitcoinCore;
+using NBitcoinBTG.Crypto;
+using NBitcoinBTG.OpenAsset;
+using NBitcoinBTG.Protocol;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -12,7 +12,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace NBitcoin.Tests
+namespace NBitcoinBTG.Tests
 {
 	public class Benchmark
 	{

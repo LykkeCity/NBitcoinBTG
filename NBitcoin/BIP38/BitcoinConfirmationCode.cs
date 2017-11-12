@@ -1,11 +1,11 @@
-﻿using NBitcoin.Crypto;
-using NBitcoin.DataEncoders;
-using NBitcoin.BouncyCastle.Math;
-using NBitcoin.BouncyCastle.Math.EC;
+﻿using NBitcoinBTG.Crypto;
+using NBitcoinBTG.DataEncoders;
+using NBitcoinBTG.BouncyCastle.Math;
+using NBitcoinBTG.BouncyCastle.Math.EC;
 using System;
 using System.Linq;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public class BitcoinConfirmationCode : Base58Data
 	{

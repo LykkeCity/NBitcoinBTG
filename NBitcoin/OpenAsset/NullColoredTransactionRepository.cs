@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.OpenAsset
+namespace NBitcoinBTG.OpenAsset
 {
 	/// <summary>
 	/// A colored transaction repository which does not save ColoredTransaction

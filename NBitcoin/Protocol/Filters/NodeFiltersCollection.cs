@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.Protocol.Filters
+namespace NBitcoinBTG.Protocol.Filters
 {
 	public class NodeFiltersCollection : ThreadSafeCollection<INodeFilter>
 	{

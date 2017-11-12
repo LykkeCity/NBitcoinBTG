@@ -1,13 +1,13 @@
-﻿using NBitcoin.Crypto;
-using NBitcoin.DataEncoders;
-using NBitcoin.Protocol;
-using NBitcoin.RPC;
+﻿using NBitcoinBTG.Crypto;
+using NBitcoinBTG.DataEncoders;
+using NBitcoinBTG.Protocol;
+using NBitcoinBTG.RPC;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public class OutPoint : IBitcoinSerializable
 	{

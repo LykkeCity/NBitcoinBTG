@@ -1,11 +1,11 @@
-﻿using NBitcoin.BitcoinCore;
-using NBitcoin.BouncyCastle.Math;
-using NBitcoin.Crypto;
-using NBitcoin.DataEncoders;
-using NBitcoin.OpenAsset;
-using NBitcoin.Policy;
-using NBitcoin.Protocol;
-using NBitcoin.Stealth;
+﻿using NBitcoinBTG.BitcoinCore;
+using NBitcoinBTG.BouncyCastle.Math;
+using NBitcoinBTG.Crypto;
+using NBitcoinBTG.DataEncoders;
+using NBitcoinBTG.OpenAsset;
+using NBitcoinBTG.Policy;
+using NBitcoinBTG.Protocol;
+using NBitcoinBTG.Stealth;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -16,7 +16,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace NBitcoin.Tests
+namespace NBitcoinBTG.Tests
 {
 	public class transaction_tests
 	{
@@ -307,7 +307,7 @@ namespace NBitcoin.Tests
 
 		[Fact]
 		[Trait("UnitTest", "UnitTest")]
-		//https://github.com/NicolasDorier/NBitcoin/issues/34
+		//https://github.com/NicolasDorier/NBitcoinBTG/issues/34
 		public void CanBuildAnyoneCanPayTransaction()
 		{
 			//Carla is buying from Alice. Bob is acting as a mediator between Alice and Carla.
@@ -2189,7 +2189,7 @@ namespace NBitcoin.Tests
 
 			var expected = new Key(Encoders.Hex.DecodeData("c477f9f65c22cce20657faa5b2d1d8122336f851a508a1ed04e479c34985bf96"), fCompressedIn: false);
 
-			var expectedBigInt = new NBitcoin.BouncyCastle.Math.BigInteger(1, Encoders.Hex.DecodeData("c477f9f65c22cce20657faa5b2d1d8122336f851a508a1ed04e479c34985bf96"));
+			var expectedBigInt = new NBitcoinBTG.BouncyCastle.Math.BigInteger(1, Encoders.Hex.DecodeData("c477f9f65c22cce20657faa5b2d1d8122336f851a508a1ed04e479c34985bf96"));
 			var priv = (z1.Multiply(sig2.S).Subtract(z2.Multiply(sig1.S)).Mod(n)).Divide(sig1.R.Multiply(sig1.S.Subtract(sig2.S)).Mod(n));
 			Assert.Equal(expectedBigInt.ToString(), priv.ToString());
 

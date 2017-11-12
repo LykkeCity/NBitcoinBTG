@@ -1,14 +1,14 @@
-﻿using NBitcoin.DataEncoders;
+﻿using NBitcoinBTG.DataEncoders;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ooo = NBitcoin.BouncyCastle.Math;
+using ooo = NBitcoinBTG.BouncyCastle.Math;
 using System.Reflection;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public class Op
 	{

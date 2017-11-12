@@ -1,6 +1,6 @@
-﻿using NBitcoin.Crypto;
-using NBitcoin.DataEncoders;
-using NBitcoin.BouncyCastle.Math;
+﻿using NBitcoinBTG.Crypto;
+using NBitcoinBTG.DataEncoders;
+using NBitcoinBTG.BouncyCastle.Math;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Security;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.Stealth
+namespace NBitcoinBTG.Stealth
 {
 	public class BitField
 	{

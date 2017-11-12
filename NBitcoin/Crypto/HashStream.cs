@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.Crypto
+namespace NBitcoinBTG.Crypto
 {
 	internal class HashStream : Stream
 	{

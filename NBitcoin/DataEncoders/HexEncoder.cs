@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text;
 
-namespace NBitcoin.DataEncoders
+namespace NBitcoinBTG.DataEncoders
 {
 	public class HexEncoder : DataEncoder
 	{

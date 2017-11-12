@@ -1,4 +1,4 @@
-namespace NBitcoin.BouncyCastle.Math.EC.Multiplier
+namespace NBitcoinBTG.BouncyCastle.Math.EC.Multiplier
 {
 	/**
     * Class implementing the WNAF (Window Non-Adjacent Form) multiplication

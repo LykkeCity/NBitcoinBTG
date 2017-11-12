@@ -37,9 +37,9 @@ using System.IO;
 using System.Text;
 using System.Linq;
 using System.Web.Util;
-using NBitcoin.DataEncoders;
+using NBitcoinBTG.DataEncoders;
 
-namespace System.Web.NBitcoin
+namespace System.Web.NBitcoinBTG
 {
 
 

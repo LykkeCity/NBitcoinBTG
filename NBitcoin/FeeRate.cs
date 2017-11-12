@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public class FeeRate : IEquatable<FeeRate>, IComparable<FeeRate>
 	{

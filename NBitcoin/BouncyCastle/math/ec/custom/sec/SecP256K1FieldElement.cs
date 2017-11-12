@@ -1,9 +1,9 @@
 ﻿using System;
 
-using NBitcoin.BouncyCastle.Math.Raw;
-using NBitcoin.BouncyCastle.Utilities;
+using NBitcoinBTG.BouncyCastle.Math.Raw;
+using NBitcoinBTG.BouncyCastle.Utilities;
 
-namespace NBitcoin.BouncyCastle.Math.EC.Custom.Sec
+namespace NBitcoinBTG.BouncyCastle.Math.EC.Custom.Sec
 {
 	internal class SecP256K1FieldElement
 		: ECFieldElement

@@ -1,6 +1,6 @@
-﻿using NBitcoin.BouncyCastle.Crypto.Digests;
-using NBitcoin.BouncyCastle.Crypto.Parameters;
-using NBitcoin.BouncyCastle.Security;
+﻿using NBitcoinBTG.BouncyCastle.Crypto.Digests;
+using NBitcoinBTG.BouncyCastle.Crypto.Parameters;
+using NBitcoinBTG.BouncyCastle.Security;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 using System.Security.Cryptography;
 #endif
 
-namespace NBitcoin.Crypto
+namespace NBitcoinBTG.Crypto
 {
 	public static class Hashes
 	{
@@ -386,7 +386,7 @@ namespace NBitcoin.Crypto
 #if USEBC || WINDOWS_UWP
 		public static byte[] HMACSHA512(byte[] key, byte[] data)
 		{
-			var mac = new NBitcoin.BouncyCastle.Crypto.Macs.HMac(new Sha512Digest());
+			var mac = new NBitcoinBTG.BouncyCastle.Crypto.Macs.HMac(new Sha512Digest());
 			mac.Init(new KeyParameter(key));
 			mac.Update(data);
 			byte[] result = new byte[mac.GetMacSize()];

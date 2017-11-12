@@ -1,4 +1,4 @@
-﻿using NBitcoin.Protocol;
+﻿using NBitcoinBTG.Protocol;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace NBitcoin.Tests
+namespace NBitcoinBTG.Tests
 {
 	public class uint256_tests
 	{

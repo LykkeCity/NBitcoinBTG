@@ -6,7 +6,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.Protocol
+namespace NBitcoinBTG.Protocol
 {
 	public class NetworkAddress : IBitcoinSerializable
 	{

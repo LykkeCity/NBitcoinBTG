@@ -3,9 +3,9 @@ using System.Text;
 #if !USEBC
 using System.Security.Cryptography;
 #endif
-using NBitcoin.Crypto;
+using NBitcoinBTG.Crypto;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public class UnsecureRandom : IRandom
 	{

@@ -1,8 +1,8 @@
-﻿using NBitcoin.DataEncoders;
+﻿using NBitcoinBTG.DataEncoders;
 using System;
 using System.Linq;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	/// <summary>
 	/// Base58 representaiton of a script hash

@@ -1,11 +1,11 @@
 ﻿using System.Diagnostics;
-using NBitcoin.Crypto;
+using NBitcoinBTG.Crypto;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public enum ScriptError
 	{
@@ -410,8 +410,8 @@ namespace NBitcoin
 
 		public ScriptEvaluationContext()
 		{
-			ScriptVerify = NBitcoin.ScriptVerify.Standard;
-			SigHash = NBitcoin.SigHash.Undefined;
+			ScriptVerify = NBitcoinBTG.ScriptVerify.Standard;
+			SigHash = NBitcoinBTG.SigHash.Undefined;
 			Error = ScriptError.UnknownError;
 		}
 		public ScriptVerify ScriptVerify
@@ -1976,8 +1976,8 @@ namespace NBitcoin
 				var nLenS = vchSig[5 + nLenR];
 				var R = 4;
 				var S = 6 + nLenR;
-				var newS = new NBitcoin.BouncyCastle.Math.BigInteger(1, vchSig, S, nLenS);
-				var newR = new NBitcoin.BouncyCastle.Math.BigInteger(1, vchSig, R, nLenR);
+				var newS = new NBitcoinBTG.BouncyCastle.Math.BigInteger(1, vchSig, S, nLenS);
+				var newR = new NBitcoinBTG.BouncyCastle.Math.BigInteger(1, vchSig, R, nLenR);
 				var sig2 = new ECDSASignature(newR, newS);
 				if(sig2.R != scriptSig.Signature.R || sig2.S != scriptSig.Signature.S)
 				{
@@ -1992,7 +1992,7 @@ namespace NBitcoin
 
 		public bool IsAllowedSignature(SigHash sigHash)
 		{
-			if(SigHash == NBitcoin.SigHash.Undefined)
+			if(SigHash == NBitcoinBTG.SigHash.Undefined)
 				return true;
 			return SigHash == sigHash;
 		}

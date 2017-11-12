@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.Protocol
+namespace NBitcoinBTG.Protocol
 {
 	public class MessageProducer<T>
 	{

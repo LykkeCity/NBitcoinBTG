@@ -1,15 +1,15 @@
-﻿using NBitcoin.Crypto;
-using NBitcoin.DataEncoders;
-using NBitcoin.Stealth;
-using NBitcoin.BouncyCastle.Math;
+﻿using NBitcoinBTG.Crypto;
+using NBitcoinBTG.DataEncoders;
+using NBitcoinBTG.Stealth;
+using NBitcoinBTG.BouncyCastle.Math;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NBitcoin.BouncyCastle.Math.EC;
+using NBitcoinBTG.BouncyCastle.Math.EC;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public class PubKey : IBitcoinSerializable, IDestination
 	{
@@ -323,7 +323,7 @@ namespace NBitcoin
 				throw new InvalidOperationException("You won the big prize ! this would happen only 1 in 2^127. Take a screenshot, and roll the dice again.");
 
 			q = q.Normalize();
-			var p = new NBitcoin.BouncyCastle.Math.EC.FpPoint(ECKey.CURVE.Curve, q.XCoord, q.YCoord, true);
+			var p = new NBitcoinBTG.BouncyCastle.Math.EC.FpPoint(ECKey.CURVE.Curve, q.XCoord, q.YCoord, true);
 			return new PubKey(p.GetEncoded());
 		}
 

@@ -1,11 +1,11 @@
 ﻿using System.IO;
 using System.Linq;
 using System.Threading;
-using NBitcoin;
+using NBitcoinBTG;
 using Xunit;
 using System;
 
-namespace NBitcoin.Tests
+namespace NBitcoinBTG.Tests
 {
 	public class NetworkTests
 	{

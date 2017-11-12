@@ -1,14 +1,14 @@
 ﻿#if !NOSOCKET
-using NBitcoin.Protocol;
+using NBitcoinBTG.Protocol;
 #endif
-using NBitcoin.DataEncoders;
+using NBitcoinBTG.DataEncoders;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public class NetworkBuilder
 	{

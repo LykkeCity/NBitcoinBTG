@@ -1,9 +1,9 @@
 using System;
 using System.IO;
 
-using NBitcoin.BouncyCastle.Utilities.IO;
+using NBitcoinBTG.BouncyCastle.Utilities.IO;
 
-namespace NBitcoin.BouncyCastle.Asn1
+namespace NBitcoinBTG.BouncyCastle.Asn1
 {
 	internal class DerOutputStream
 		: FilterStream

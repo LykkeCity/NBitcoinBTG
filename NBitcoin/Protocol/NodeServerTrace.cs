@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.Protocol
+namespace NBitcoinBTG.Protocol
 {
 	public static class NodeServerTrace
 	{
 
-		static TraceSource _Trace = new TraceSource("NBitcoin.NodeServer");
+		static TraceSource _Trace = new TraceSource("NBitcoinBTG.NodeServer");
 		internal static TraceSource Trace
 		{
 			get

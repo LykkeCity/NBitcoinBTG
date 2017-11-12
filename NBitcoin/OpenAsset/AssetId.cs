@@ -1,11 +1,11 @@
-﻿using NBitcoin.DataEncoders;
+﻿using NBitcoinBTG.DataEncoders;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.OpenAsset
+namespace NBitcoinBTG.OpenAsset
 {
 	/// <summary>
 	/// A unique Id for an asset

@@ -10,7 +10,7 @@
 // (C) 2005-2010 Novell, Inc (http://novell.com/)
 //
 
-using NBitcoin.DataEncoders;
+using NBitcoinBTG.DataEncoders;
 //
 // Permission is hereby granted, free of charge, to any person obtaining
 // a copy of this software and associated documentation files (the

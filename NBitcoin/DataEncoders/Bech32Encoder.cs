@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
-namespace NBitcoin.DataEncoders
+namespace NBitcoinBTG.DataEncoders
 {
 	public class Bech32FormatException : FormatException
 	{

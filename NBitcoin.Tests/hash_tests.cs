@@ -1,5 +1,5 @@
-﻿using NBitcoin.Crypto;
-using NBitcoin.DataEncoders;
+﻿using NBitcoinBTG.Crypto;
+using NBitcoinBTG.DataEncoders;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace NBitcoin.Tests
+namespace NBitcoinBTG.Tests
 {
 	public class hash_tests
 	{

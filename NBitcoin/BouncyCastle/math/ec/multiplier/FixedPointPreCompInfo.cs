@@ -1,4 +1,4 @@
-﻿namespace NBitcoin.BouncyCastle.Math.EC.Multiplier
+﻿namespace NBitcoinBTG.BouncyCastle.Math.EC.Multiplier
 {
 	/**
      * Class holding precomputation data for fixed-point multiplications.

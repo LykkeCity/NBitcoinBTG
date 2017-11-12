@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.JsonConverters
+namespace NBitcoinBTG.JsonConverters
 {
 	public class Serializer
 	{

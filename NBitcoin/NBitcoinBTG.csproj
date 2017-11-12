@@ -22,7 +22,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <DocumentationFile>bin\Release\NBitcoin.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\NBitcoinBTG.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net461' ">
     <DefineConstants>$(DefineConstants);WIN</DefineConstants>
@@ -77,6 +77,6 @@
 	</Target>
 
 	<PropertyGroup>
-		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\NBitcoin.xml</DocumentationFile>
+		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\NBitcoinBTG.xml</DocumentationFile>
 	</PropertyGroup>
 </Project>

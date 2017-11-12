@@ -1,6 +1,6 @@
 using System;
 
-namespace NBitcoin.BouncyCastle.Crypto
+namespace NBitcoinBTG.BouncyCastle.Crypto
 {
 	/**
      * this exception is thrown if a buffer that is meant to have output

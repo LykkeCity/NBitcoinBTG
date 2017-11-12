@@ -1,4 +1,4 @@
-﻿namespace NBitcoin
+﻿namespace NBitcoinBTG
 {
 	public class PrecomputedTransactionData
 	{

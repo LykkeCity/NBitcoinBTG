@@ -5,17 +5,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xunit;
-using NBitcoin;
-using NBitcoin.Protocol;
+using NBitcoinBTG;
+using NBitcoinBTG.Protocol;
 using System.Net;
 using System.Threading;
 using System.IO;
-using NBitcoin.DataEncoders;
+using NBitcoinBTG.DataEncoders;
 using System.Net.Sockets;
-using NBitcoin.Protocol.Behaviors;
+using NBitcoinBTG.Protocol.Behaviors;
 using System.Diagnostics;
 
-namespace NBitcoin.Tests
+namespace NBitcoinBTG.Tests
 {
 	public class NodeServerTester : IDisposable
 	{
@@ -121,7 +121,7 @@ namespace NBitcoin.Tests
 
 		#endregion
 
-		public static string NATRuleName = "NBitcoin Tests";
+		public static string NATRuleName = "NBitcoinBTG Tests";
 
 		List<IDisposable> _Disposables = new List<IDisposable>();
 		internal void AddDisposable(IDisposable disposable)

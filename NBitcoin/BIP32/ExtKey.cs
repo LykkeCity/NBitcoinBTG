@@ -1,10 +1,10 @@
-﻿using NBitcoin.Crypto;
-using NBitcoin.DataEncoders;
-using NBitcoin.BouncyCastle.Math;
+﻿using NBitcoinBTG.Crypto;
+using NBitcoinBTG.DataEncoders;
+using NBitcoinBTG.BouncyCastle.Math;
 using System;
 using System.Linq;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	/// <summary>
 	/// A private Hierarchical Deterministic key

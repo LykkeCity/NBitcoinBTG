@@ -5,14 +5,14 @@ using System.Collections;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NBitcoin.Crypto;
+using NBitcoinBTG.Crypto;
 #if !WINDOWS_UWP && !USEBC
 using System.Security.Cryptography;
 #endif
-using NBitcoin.BouncyCastle.Security;
-using NBitcoin.BouncyCastle.Crypto.Parameters;
+using NBitcoinBTG.BouncyCastle.Security;
+using NBitcoinBTG.BouncyCastle.Crypto.Parameters;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	/// <summary>
 	/// A .NET implementation of the Bitcoin Improvement Proposal - 39 (BIP39)
@@ -126,7 +126,7 @@ namespace NBitcoin
 		{
 			if(bits.Length != 11)
 			{
-				throw new InvalidOperationException("should never happen, bug in nbitcoin");
+				throw new InvalidOperationException("should never happen, bug in NBitcoinBTG");
 			}
 
 			int number = 0;
@@ -179,7 +179,7 @@ namespace NBitcoin
 			var bytes = Normalize(_Mnemonic);
 
 #if USEBC || WINDOWS_UWP || NETCORE
-			var mac = new NBitcoin.BouncyCastle.Crypto.Macs.HMac(new NBitcoin.BouncyCastle.Crypto.Digests.Sha512Digest());
+			var mac = new NBitcoinBTG.BouncyCastle.Crypto.Macs.HMac(new NBitcoinBTG.BouncyCastle.Crypto.Digests.Sha512Digest());
 			mac.Init(new KeyParameter(bytes));
 			return Pbkdf2.ComputeDerivedKey(mac, salt, 2048, 64);
 #else

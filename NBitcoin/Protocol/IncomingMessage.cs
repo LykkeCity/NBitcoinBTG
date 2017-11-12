@@ -6,7 +6,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.Protocol
+namespace NBitcoinBTG.Protocol
 {
 	public class IncomingMessage
 	{

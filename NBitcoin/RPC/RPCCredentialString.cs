@@ -6,7 +6,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.RPC
+namespace NBitcoinBTG.RPC
 {
 	public class RPCCredentialString
 	{

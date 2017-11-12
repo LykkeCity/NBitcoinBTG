@@ -1,10 +1,10 @@
 using System;
 
-using NBitcoin.BouncyCastle.Math;
-using NBitcoin.BouncyCastle.Math.EC;
-using NBitcoin.BouncyCastle.Utilities;
+using NBitcoinBTG.BouncyCastle.Math;
+using NBitcoinBTG.BouncyCastle.Math.EC;
+using NBitcoinBTG.BouncyCastle.Utilities;
 
-namespace NBitcoin.BouncyCastle.Asn1.X9
+namespace NBitcoinBTG.BouncyCastle.Asn1.X9
 {
 	/**
      * ASN.1 def for Elliptic-Curve Curve structure. See

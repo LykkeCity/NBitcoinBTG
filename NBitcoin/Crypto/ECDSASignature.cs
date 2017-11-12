@@ -1,5 +1,5 @@
-﻿using NBitcoin.BouncyCastle.Asn1;
-using NBitcoin.BouncyCastle.Math;
+﻿using NBitcoinBTG.BouncyCastle.Asn1;
+using NBitcoinBTG.BouncyCastle.Math;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.Crypto
+namespace NBitcoinBTG.Crypto
 {
 	public class ECDSASignature
 	{

@@ -1,4 +1,4 @@
-﻿using NBitcoin.DataEncoders;
+﻿using NBitcoinBTG.DataEncoders;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace NBitcoin.Tests
+namespace NBitcoinBTG.Tests
 {
 	public class bip39_tests
 	{

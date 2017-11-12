@@ -1,4 +1,4 @@
-namespace NBitcoin.BouncyCastle.Crypto.Utilities
+namespace NBitcoinBTG.BouncyCastle.Crypto.Utilities
 {
 	internal sealed class Pack
 	{

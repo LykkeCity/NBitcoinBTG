@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.Protocol.Behaviors
+namespace NBitcoinBTG.Protocol.Behaviors
 {
 	public class NodeBehaviorsCollection : ThreadSafeCollection<INodeBehavior>
 	{

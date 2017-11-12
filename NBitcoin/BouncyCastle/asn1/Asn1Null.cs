@@ -1,4 +1,4 @@
-namespace NBitcoin.BouncyCastle.Asn1
+namespace NBitcoinBTG.BouncyCastle.Asn1
 {
 	/**
      * A Null object.

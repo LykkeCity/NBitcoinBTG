@@ -1,5 +1,5 @@
 ﻿#if !NOSOCKET
-using NBitcoin.Protocol.Behaviors;
+using NBitcoinBTG.Protocol.Behaviors;
 using System;
 using System.Collections.Generic;
 using System.Net.Sockets;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NBitcoin.Protocol
+namespace NBitcoinBTG.Protocol
 {
 	public class NodeConnectionParameters
 	{
@@ -24,7 +24,7 @@ namespace NBitcoin.Protocol
 			ConnectCancellation = default(CancellationToken);
 			ReceiveBufferSize = 1000 * 5000;
 			SendBufferSize = 1000 * 1000;
-			UserAgent = VersionPayload.GetNBitcoinUserAgent();
+			UserAgent = VersionPayload.GetNBitcoinBTGUserAgent();
 			PreferredTransactionOptions = TransactionOptions.All;
 		}
 

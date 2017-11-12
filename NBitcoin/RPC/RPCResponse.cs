@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.RPC
+namespace NBitcoinBTG.RPC
 {
 	//{"code":-32601,"message":"Method not found"}
 	public class RPCError

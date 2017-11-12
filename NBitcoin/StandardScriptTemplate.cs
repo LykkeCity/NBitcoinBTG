@@ -1,9 +1,9 @@
-﻿using NBitcoin.Crypto;
+﻿using NBitcoinBTG.Crypto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	//TODO : Is*Conform can be used to parses the script
 

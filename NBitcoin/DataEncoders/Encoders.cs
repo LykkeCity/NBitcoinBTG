@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NBitcoin.DataEncoders
+namespace NBitcoinBTG.DataEncoders
 {
 	public abstract class DataEncoder
 	{

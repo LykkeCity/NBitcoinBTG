@@ -1,10 +1,10 @@
 ﻿#if !NOJSONNET
-using NBitcoin;
+using NBitcoinBTG;
 using Newtonsoft.Json;
 using System;
 using System.Reflection;
 
-namespace NBitcoin.JsonConverters
+namespace NBitcoinBTG.JsonConverters
 {
 #if !NOJSONNET
 	public
@@ -25,7 +25,7 @@ namespace NBitcoin.JsonConverters
 		{
 			return
 				typeof(IBitcoinString).GetTypeInfo().IsAssignableFrom(objectType.GetTypeInfo()) ||
-				(typeof(IDestination).GetTypeInfo().IsAssignableFrom(objectType.GetTypeInfo()) && objectType.GetTypeInfo().AssemblyQualifiedName.Contains("NBitcoin"));
+				(typeof(IDestination).GetTypeInfo().IsAssignableFrom(objectType.GetTypeInfo()) && objectType.GetTypeInfo().AssemblyQualifiedName.Contains("NBitcoinBTG"));
 		}
 
 		public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)

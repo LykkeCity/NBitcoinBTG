@@ -1,5 +1,5 @@
-﻿using NBitcoin.Crypto;
-using NBitcoin.DataEncoders;
+﻿using NBitcoinBTG.Crypto;
+using NBitcoinBTG.DataEncoders;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -12,7 +12,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NBitcoin.Protocol
+namespace NBitcoinBTG.Protocol
 {
 	public class Message : IBitcoinSerializable
 	{

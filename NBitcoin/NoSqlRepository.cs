@@ -1,4 +1,4 @@
-﻿using NBitcoin.DataEncoders;
+﻿using NBitcoinBTG.DataEncoders;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.ExceptionServices;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public abstract class NoSqlRepository
 	{

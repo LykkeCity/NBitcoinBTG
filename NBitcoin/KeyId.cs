@@ -1,8 +1,8 @@
-﻿using NBitcoin.Crypto;
-using NBitcoin.DataEncoders;
+﻿using NBitcoinBTG.Crypto;
+using NBitcoinBTG.DataEncoders;
 using System;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public abstract class TxDestination : IDestination
 	{

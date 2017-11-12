@@ -1,9 +1,9 @@
 using System;
 using System.IO;
 
-using NBitcoin.BouncyCastle.Utilities.IO;
+using NBitcoinBTG.BouncyCastle.Utilities.IO;
 
-namespace NBitcoin.BouncyCastle.Asn1
+namespace NBitcoinBTG.BouncyCastle.Asn1
 {
 	/**
 	 * a general purpose ASN.1 decoder - note: this class differs from the

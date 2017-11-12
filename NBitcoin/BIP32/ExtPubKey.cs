@@ -1,9 +1,9 @@
 ﻿using System;
-using NBitcoin.Crypto;
-using NBitcoin.DataEncoders;
+using NBitcoinBTG.Crypto;
+using NBitcoinBTG.DataEncoders;
 using System.Linq;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	/// <summary>
 	/// A public HD key

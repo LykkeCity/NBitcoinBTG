@@ -9,10 +9,10 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
-using System.Web.NBitcoin;
+using System.Web.NBitcoinBTG;
 using System.Runtime.ExceptionServices;
 
-namespace NBitcoin.Payment
+namespace NBitcoinBTG.Payment
 {
 	/// <summary>
 	/// https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki

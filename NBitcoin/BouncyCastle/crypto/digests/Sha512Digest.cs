@@ -1,7 +1,7 @@
-using NBitcoin.BouncyCastle.Crypto.Utilities;
-using NBitcoin.BouncyCastle.Utilities;
+using NBitcoinBTG.BouncyCastle.Crypto.Utilities;
+using NBitcoinBTG.BouncyCastle.Utilities;
 
-namespace NBitcoin.BouncyCastle.Crypto.Digests
+namespace NBitcoinBTG.BouncyCastle.Crypto.Digests
 {
 	/**
      * Draft FIPS 180-2 implementation of SHA-512. <b>Note:</b> As this is

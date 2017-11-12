@@ -1,5 +1,5 @@
 ﻿#if !NOJSONNET
-using NBitcoin.DataEncoders;
+using NBitcoinBTG.DataEncoders;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.RPC
+namespace NBitcoinBTG.RPC
 {
 	class SatoshiFormatter : RawFormatter
 	{

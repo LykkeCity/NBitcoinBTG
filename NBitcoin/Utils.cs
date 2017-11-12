@@ -1,4 +1,4 @@
-﻿using NBitcoin.DataEncoders;
+﻿using NBitcoinBTG.DataEncoders;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -7,10 +7,10 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading;
-using NBitcoin.Protocol;
+using NBitcoinBTG.Protocol;
 using System.Runtime.ExceptionServices;
 using System.Threading.Tasks;
-using NBitcoin.BouncyCastle.Math;
+using NBitcoinBTG.BouncyCastle.Math;
 #if !NOSOCKET
 using System.Net.Sockets;
 #endif
@@ -20,7 +20,7 @@ using Windows.Networking;
 using Windows.Networking.Connectivity;
 #endif
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public static class Extensions
 	{
@@ -447,7 +447,7 @@ namespace NBitcoin
 			ms.Write(bytes, 0, bytes.Length);
 		}
 
-		internal static Array BigIntegerToBytes(NBitcoin.BouncyCastle.Math.BigInteger b, int numBytes)
+		internal static Array BigIntegerToBytes(NBitcoinBTG.BouncyCastle.Math.BigInteger b, int numBytes)
 		{
 			if(b == null)
 			{
@@ -498,7 +498,7 @@ namespace NBitcoin
 			return new BigInteger(1, data);
 		}
 
-		static readonly TraceSource _TraceSource = new TraceSource("NBitcoin");
+		static readonly TraceSource _TraceSource = new TraceSource("NBitcoinBTG");
 
 		internal static bool error(string msg)
 		{

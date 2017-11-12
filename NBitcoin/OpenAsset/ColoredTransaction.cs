@@ -8,7 +8,7 @@ using System.Runtime.ExceptionServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.OpenAsset
+namespace NBitcoinBTG.OpenAsset
 {
 	public class ColoredEntry : IBitcoinSerializable
 	{
@@ -220,7 +220,7 @@ namespace NBitcoin.OpenAsset
 				await repo.PutAsync(frame.TransactionId, colored).ConfigureAwait(false);
 			}
 			if(coloreds.Count != 1)
-				throw new InvalidOperationException("Colored stack length != 1, this is a NBitcoin bug, please contact us.");
+				throw new InvalidOperationException("Colored stack length != 1, this is a NBitcoinBTG bug, please contact us.");
 			return coloreds.Pop();
 		}
 

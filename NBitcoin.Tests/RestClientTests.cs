@@ -1,11 +1,11 @@
-﻿using NBitcoin.RPC;
+﻿using NBitcoinBTG.RPC;
 using System;
 using System.Linq;
 using Xunit;
 
-namespace NBitcoin.Tests
+namespace NBitcoinBTG.Tests
 {
-	//Require a rpc server on test network running on default port with -rest -rpcuser=NBitcoin -rpcpassword=NBitcoinPassword
+	//Require a rpc server on test network running on default port with -rest -rpcuser=NBitcoinBTG -rpcpassword=NBitcoinBTGPassword
 	//For me : 
 	//"bitcoin-qt.exe" -testnet -server -rest 
 	[Trait("RestClient", "RestClient")]

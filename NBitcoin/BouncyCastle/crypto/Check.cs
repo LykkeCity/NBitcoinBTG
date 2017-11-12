@@ -1,4 +1,4 @@
-﻿namespace NBitcoin.BouncyCastle.Crypto
+﻿namespace NBitcoinBTG.BouncyCastle.Crypto
 {
 	internal class Check
 	{

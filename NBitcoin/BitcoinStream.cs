@@ -1,4 +1,4 @@
-﻿using NBitcoin.Protocol;
+﻿using NBitcoinBTG.Protocol;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public enum SerializationType
 	{

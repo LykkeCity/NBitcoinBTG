@@ -1,5 +1,5 @@
-﻿using NBitcoin.Crypto;
-using NBitcoin.DataEncoders;
+﻿using NBitcoinBTG.Crypto;
+using NBitcoinBTG.DataEncoders;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.Protocol
+namespace NBitcoinBTG.Protocol
 {
 	[Payload("alert")]
 	public class AlertPayload : Payload, IBitcoinSerializable

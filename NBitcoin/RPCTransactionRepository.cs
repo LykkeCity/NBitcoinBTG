@@ -1,12 +1,12 @@
 ﻿#if !NOJSONNET
-using NBitcoin.RPC;
+using NBitcoinBTG.RPC;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public class RPCTransactionRepository : ITransactionRepository
 	{

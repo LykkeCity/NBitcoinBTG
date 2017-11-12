@@ -1,6 +1,6 @@
-﻿using NBitcoin.DataEncoders;
-using NBitcoin.Protocol;
-using NBitcoin.Stealth;
+﻿using NBitcoinBTG.DataEncoders;
+using NBitcoinBTG.Protocol;
+using NBitcoinBTG.Stealth;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public class DNSSeedData
 	{
@@ -1185,9 +1185,9 @@ namespace NBitcoin
 			return new BitcoinColoredAddress(base58, this);
 		}
 
-		public NBitcoin.OpenAsset.BitcoinAssetId CreateAssetId(string base58)
+		public NBitcoinBTG.OpenAsset.BitcoinAssetId CreateAssetId(string base58)
 		{
-			return new NBitcoin.OpenAsset.BitcoinAssetId(base58, this);
+			return new NBitcoinBTG.OpenAsset.BitcoinAssetId(base58, this);
 		}
 
 		public BitcoinStealthAddress CreateStealthAddress(string base58)

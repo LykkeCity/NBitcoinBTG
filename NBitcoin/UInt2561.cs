@@ -2,10 +2,10 @@
 using System;
 using System.Linq;
 using System.IO;
-using NBitcoin.DataEncoders;
-using NBitcoin.Protocol;
+using NBitcoinBTG.DataEncoders;
+using NBitcoinBTG.Protocol;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public class uint256
 	{

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.BouncyCastle.Security
+namespace NBitcoinBTG.BouncyCastle.Security
 {
 	internal class SecureRandom : Random
 	{

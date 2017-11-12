@@ -8,12 +8,12 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
-using NBitcoin.Protocol;
-using NBitcoin.Protocol.Payloads;
+using NBitcoinBTG.Protocol;
+using NBitcoinBTG.Protocol.Payloads;
 using Newtonsoft.Json.Linq;
 using System.Runtime.ExceptionServices;
 
-namespace NBitcoin.RPC
+namespace NBitcoinBTG.RPC
 {
 	public enum RestResponseFormat
 	{

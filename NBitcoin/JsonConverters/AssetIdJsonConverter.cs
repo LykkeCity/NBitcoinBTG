@@ -1,5 +1,5 @@
 ﻿#if !NOJSONNET
-using NBitcoin.OpenAsset;
+using NBitcoinBTG.OpenAsset;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -7,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Reflection;
 using System.Threading.Tasks;
-using NBitcoin;
+using NBitcoinBTG;
 
-namespace NBitcoin.JsonConverters
+namespace NBitcoinBTG.JsonConverters
 {
 #if !NOJSONNET
 	public

@@ -1,10 +1,10 @@
-﻿using NBitcoin.Crypto;
+﻿using NBitcoinBTG.Crypto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public class MerkleNode
 	{
@@ -30,7 +30,7 @@ namespace NBitcoin
 		public static MerkleNode GetRoot(int leafCount)
 		{
 			if(leafCount > 1024 * 1024)
-				throw new ArgumentOutOfRangeException("leafCount", "To prevent DDOS attacks, NBitcoin does not support more than 1024*1024 transactions for the creation of a MerkleNode, if this case is legitimate, contact us.");
+				throw new ArgumentOutOfRangeException("leafCount", "To prevent DDOS attacks, NBitcoinBTG does not support more than 1024*1024 transactions for the creation of a MerkleNode, if this case is legitimate, contact us.");
 			return GetRoot(Enumerable.Range(0, leafCount).Select(i => null as uint256));
 		}
 

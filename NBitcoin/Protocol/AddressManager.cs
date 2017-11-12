@@ -1,6 +1,6 @@
 ﻿#if !NOSOCKET
-using NBitcoin.Crypto;
-using NBitcoin.Protocol.Behaviors;
+using NBitcoinBTG.Crypto;
+using NBitcoinBTG.Protocol.Behaviors;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NBitcoin.Protocol
+namespace NBitcoinBTG.Protocol
 {
 
 	/// <summary>
@@ -942,7 +942,7 @@ namespace NBitcoin.Protocol
 		private static void assert(bool value)
 		{
 			if(!value)
-				throw new InvalidOperationException("Bug in AddressManager, should never happen, contact NBitcoin developpers if you see this exception");
+				throw new InvalidOperationException("Bug in AddressManager, should never happen, contact NBitcoinBTG developpers if you see this exception");
 		}
 		//! Mark an entry as connection attempted to.
 		public void Attempt(NetworkAddress addr)

@@ -6,7 +6,7 @@ using System.Runtime.ExceptionServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.BitcoinCore
+namespace NBitcoinBTG.BitcoinCore
 {
 	public class IndexedBlockStore : IndexedStore<StoredBlock, Block>, IBlockProvider
 	{

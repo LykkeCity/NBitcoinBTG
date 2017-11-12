@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.BuilderExtensions
+namespace NBitcoinBTG.BuilderExtensions
 {
 	public class P2MultiSigBuilderExtension : BuilderExtension
 	{

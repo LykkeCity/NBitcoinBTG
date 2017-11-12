@@ -1,11 +1,11 @@
-﻿using NBitcoin.BouncyCastle.Math;
+﻿using NBitcoinBTG.BouncyCastle.Math;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	/// <summary>
 	/// A BlockHeader chained with all its ancestors

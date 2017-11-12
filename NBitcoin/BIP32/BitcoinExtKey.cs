@@ -1,4 +1,4 @@
-﻿namespace NBitcoin
+﻿namespace NBitcoinBTG
 {
 	public abstract class BitcoinExtKeyBase : Base58Data, IDestination
 	{

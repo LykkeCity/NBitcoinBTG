@@ -1,6 +1,6 @@
 ﻿#if !NOSOCKET
-using NBitcoin.Protocol.Behaviors;
-using NBitcoin.Protocol.Filters;
+using NBitcoinBTG.Protocol.Behaviors;
+using NBitcoinBTG.Protocol.Filters;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -15,7 +15,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NBitcoin.Protocol
+namespace NBitcoinBTG.Protocol
 {
 	public enum NodeState : int
 	{
@@ -1418,7 +1418,7 @@ namespace NBitcoin.Protocol
 					}).ToArray()));
 					try
 					{
-						List<Transaction> batchResult = new List<NBitcoin.Transaction>();
+						List<Transaction> batchResult = new List<NBitcoinBTG.Transaction>();
 						while(batchResult.Count < batch.Count)
 						{
 							CancellationTokenSource timeout = new CancellationTokenSource(TimeSpan.FromSeconds(10.0));

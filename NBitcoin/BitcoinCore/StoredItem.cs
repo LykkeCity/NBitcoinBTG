@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NBitcoin.BitcoinCore
+namespace NBitcoinBTG.BitcoinCore
 {
 	public class StoredHeader : IBitcoinSerializable
 	{

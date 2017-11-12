@@ -5,7 +5,7 @@ using System.Runtime.ExceptionServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.OpenAsset
+namespace NBitcoinBTG.OpenAsset
 {
 	public class NoSqlColoredTransactionRepository : IColoredTransactionRepository
 	{

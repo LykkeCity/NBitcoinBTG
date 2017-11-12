@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.SPV
+namespace NBitcoinBTG.SPV
 {
 	public class WalletTransactionsCollection : IEnumerable<WalletTransaction>
 	{

@@ -11,9 +11,9 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
-using NBitcoin.BitcoinCore;
+using NBitcoinBTG.BitcoinCore;
 
-namespace NBitcoin.Protocol
+namespace NBitcoinBTG.Protocol
 {
 	public delegate void NodeServerNodeEventHandler(NodeServer sender, Node node);
 	public delegate void NodeServerMessageEventHandler(NodeServer sender, IncomingMessage message);

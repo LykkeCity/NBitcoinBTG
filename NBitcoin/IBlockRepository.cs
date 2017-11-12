@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	public interface IBlockRepository
 	{

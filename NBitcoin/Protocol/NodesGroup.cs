@@ -1,5 +1,5 @@
 ﻿#if !NOSOCKET
-using NBitcoin.Protocol.Behaviors;
+using NBitcoinBTG.Protocol.Behaviors;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NBitcoin.Protocol
+namespace NBitcoinBTG.Protocol
 {
 	public class WellKnownGroupSelectors
 	{
@@ -267,7 +267,7 @@ namespace NBitcoin.Protocol
 		}
 
 		/// <summary>
-		/// How to calculate a group of an ip, by default using NBitcoin.IpExtensions.GetGroup.
+		/// How to calculate a group of an ip, by default using NBitcoinBTG.IpExtensions.GetGroup.
 		/// Overrides AllowSameGroup.
 		/// </summary>
 		public Func<IPEndPoint, byte[]> CustomGroupSelector

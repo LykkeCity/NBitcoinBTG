@@ -1,6 +1,6 @@
 ﻿#if !NOJSONNET
 #if !NOHTTPCLIENT
-using NBitcoin.DataEncoders;
+using NBitcoinBTG.DataEncoders;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -11,7 +11,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.OpenAsset
+namespace NBitcoinBTG.OpenAsset
 {
 	public class CoinprismException : Exception
 	{

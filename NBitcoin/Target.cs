@@ -1,9 +1,9 @@
-﻿using NBitcoin.BouncyCastle.Math;
+﻿using NBitcoinBTG.BouncyCastle.Math;
 using System;
 using System.Globalization;
 using System.Linq;
 
-namespace NBitcoin
+namespace NBitcoinBTG
 {
 	/// <summary>
 	/// Represent the challenge that miners must solve for finding a new block

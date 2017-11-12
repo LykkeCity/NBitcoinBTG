@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.DataEncoders
+namespace NBitcoinBTG.DataEncoders
 {
 	public class ASCIIEncoder : DataEncoder
 	{

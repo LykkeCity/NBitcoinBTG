@@ -1,4 +1,4 @@
-﻿using NBitcoin.Protobuf;
+﻿using NBitcoinBTG.Protobuf;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -11,7 +11,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBitcoin.Payment
+namespace NBitcoinBTG.Payment
 {
 	public class PaymentACK
 	{

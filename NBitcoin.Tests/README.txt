@@ -2,11 +2,11 @@
 http://visualstudiogallery.msdn.microsoft.com/463c5987-f82b-46c8-a97e-b1cde42b9099
 
 You can then group the unit tests per "Trait" in the Test Explorer.
-Here are the trait NBitcoin is using :
+Here are the trait NBitcoinBTG is using :
 
 "Core" means I ported it directly from the bitcoind source, they have no dependency.
 "UnitTest" means the test is self contained without dependency, but not ported from Bitcoin Core.
-"Benchmark" are simple method you can use or modify to measure performance of NBitcoin, they have some file system dependencies.
+"Benchmark" are simple method you can use or modify to measure performance of NBitcoinBTG, they have some file system dependencies.
 
 The two following tests depends on a running local node by bitcoin-qt or bitcoind
 "RPCClient" means the test call RPC server of bitcoind.

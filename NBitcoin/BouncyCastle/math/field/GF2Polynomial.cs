@@ -1,6 +1,6 @@
-﻿using NBitcoin.BouncyCastle.Utilities;
+﻿using NBitcoinBTG.BouncyCastle.Utilities;
 
-namespace NBitcoin.BouncyCastle.Math.Field
+namespace NBitcoinBTG.BouncyCastle.Math.Field
 {
 	internal class GF2Polynomial
 		: IPolynomial

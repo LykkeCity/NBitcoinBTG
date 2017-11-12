@@ -1,12 +1,12 @@
-﻿using NBitcoin.BouncyCastle.Crypto;
-using NBitcoin.BouncyCastle.Crypto.Digests;
-using NBitcoin.BouncyCastle.Crypto.Parameters;
-using NBitcoin.BouncyCastle.Crypto.Signers;
-using NBitcoin.BouncyCastle.Security;
+﻿using NBitcoinBTG.BouncyCastle.Crypto;
+using NBitcoinBTG.BouncyCastle.Crypto.Digests;
+using NBitcoinBTG.BouncyCastle.Crypto.Parameters;
+using NBitcoinBTG.BouncyCastle.Crypto.Signers;
+using NBitcoinBTG.BouncyCastle.Security;
 using System;
 using System.Linq;
 
-namespace NBitcoin.Crypto
+namespace NBitcoinBTG.Crypto
 {
 	static class DeterministicDSAExtensions
 	{

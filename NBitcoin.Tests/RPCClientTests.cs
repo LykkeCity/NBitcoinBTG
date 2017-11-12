@@ -1,5 +1,5 @@
-﻿using NBitcoin.DataEncoders;
-using NBitcoin.RPC;
+﻿using NBitcoinBTG.DataEncoders;
+using NBitcoinBTG.RPC;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -13,15 +13,15 @@ using System.Threading.Tasks;
 using Xunit;
 using Xunit.Sdk;
 
-namespace NBitcoin.Tests
+namespace NBitcoinBTG.Tests
 {
-	//Require a rpc server on test network running on default port with -rpcuser=NBitcoin -rpcpassword=NBitcoinPassword
+	//Require a rpc server on test network running on default port with -rpcuser=NBitcoinBTG -rpcpassword=NBitcoinBTGPassword
 	//For me : 
-	//"bitcoin-qt.exe" -testnet -server -rpcuser=NBitcoin -rpcpassword=NBitcoinPassword 
+	//"bitcoin-qt.exe" -testnet -server -rpcuser=NBitcoinBTG -rpcpassword=NBitcoinBTGPassword 
 	[Trait("RPCClient", "RPCClient")]
 	public class RPCClientTests
 	{
-		const string TestAccount = "NBitcoin.RPCClientTests";
+		const string TestAccount = "NBitcoinBTG.RPCClientTests";
 		[Fact]
 		public void InvalidCommandSendRPCException()
 		{

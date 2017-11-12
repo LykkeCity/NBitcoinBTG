@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace NBitcoin.Protocol.Payloads
+namespace NBitcoinBTG.Protocol.Payloads
 {
 	[Payload("utxos")]
 	public class UTxOutputPayload : Payload

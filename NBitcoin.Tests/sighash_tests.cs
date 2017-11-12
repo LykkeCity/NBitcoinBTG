@@ -1,4 +1,4 @@
-﻿using NBitcoin.DataEncoders;
+﻿using NBitcoinBTG.DataEncoders;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace NBitcoin.Tests
+namespace NBitcoinBTG.Tests
 {
 	public class sighash_tests
 	{
@@ -25,7 +25,7 @@ namespace NBitcoin.Tests
 		}
 
 
-		//Compare between new old implementation of signature in reference bitcoin. But NBitcoin is like the old one, so we don't care about this test
+		//Compare between new old implementation of signature in reference bitcoin. But NBitcoinBTG is like the old one, so we don't care about this test
 		//[Fact]
 		//public void sighash_test()
 		//{

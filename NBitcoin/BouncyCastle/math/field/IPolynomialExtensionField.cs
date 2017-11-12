@@ -1,4 +1,4 @@
-﻿namespace NBitcoin.BouncyCastle.Math.Field
+﻿namespace NBitcoinBTG.BouncyCastle.Math.Field
 {
 	internal interface IPolynomialExtensionField
 		: IExtensionField
