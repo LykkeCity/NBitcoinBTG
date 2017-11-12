@@ -766,8 +766,9 @@ namespace NBitcoinBTG
 			vSeeds.Add(new DNSSeedData("xf2.org", "bitseed.xf2.org")); // Jeff Garzik
 			vSeeds.Add(new DNSSeedData("bitcoin.jonasschnelli.ch", "seed.bitcoin.jonasschnelli.ch")); // Jonas Schnelli
 #endif
-			base58Prefixes[(int)Base58Type.PUBKEY_ADDRESS] = new byte[] { (0) };
-			base58Prefixes[(int)Base58Type.SCRIPT_ADDRESS] = new byte[] { (5) };
+			// https://github.com/BTCGPU/BTCGPU/blob/master/src/chainparams.cpp#L166
+			base58Prefixes[(int)Base58Type.PUBKEY_ADDRESS] = new byte[] { (38) };
+			base58Prefixes[(int)Base58Type.SCRIPT_ADDRESS] = new byte[] { (23) };
 			base58Prefixes[(int)Base58Type.SECRET_KEY] = new byte[] { (128) };
 			base58Prefixes[(int)Base58Type.ENCRYPTED_SECRET_KEY_NO_EC] = new byte[] { 0x01, 0x42 };
 			base58Prefixes[(int)Base58Type.ENCRYPTED_SECRET_KEY_EC] = new byte[] { 0x01, 0x43 };
