@@ -1,14 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<Company>Metaco SA</Company>
-		<Copyright>Copyright © Metaco SA 2017</Copyright>
-		<Description>The C# Bitcoin Library</Description>
-		<PackageIconUrl>https://aois.blob.core.windows.net/public/Bitcoin.png</PackageIconUrl>
+		<Company>Metaco SA (For original version)</Company>
+		<Copyright>Copyright © Metaco SA 2017 (For original NBitcoin)</Copyright>
+		<Description>The C# Bitcoin Library for Bitcoin Gold</Description>
 		<PackageTags>bitcoin</PackageTags>
-		<PackageProjectUrl>https://github.com/MetacoSA/NBitcoin</PackageProjectUrl>
-		<PackageLicenseUrl>https://github.com/MetacoSA/NBitcoin/blob/master/LICENSE</PackageLicenseUrl>
-		<RepositoryUrl>https://github.com/MetacoSA/NBitcoin</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/LykkeCity/NBitcoinBTG</PackageProjectUrl>
+		<PackageLicenseUrl>https://github.com/LykkeCity/NBitcoinBTG/blob/master/LICENSE</PackageLicenseUrl>
+		<RepositoryUrl>https://github.com/LykkeCity/NBitcoinBTG</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 	</PropertyGroup>
 	<PropertyGroup>
