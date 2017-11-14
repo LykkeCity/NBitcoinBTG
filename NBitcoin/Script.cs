@@ -173,7 +173,15 @@ namespace NBitcoinBTG
 		/// If set, no inputs, except this, are part of the signature
 		/// </summary>
 		AnyoneCanPay = 0x80,
+
+		ForkId = 0x40
 	};
+
+	public enum ForkId : uint
+	{
+		FORKID_BCC = 0,
+		FORKID_BTG = 79,
+	}
 
 	/// <summary>
 	/// Script opcodes
@@ -605,9 +613,11 @@ namespace NBitcoinBTG
 		//https://en.bitcoin.it/wiki/OP_CHECKSIG
 		public static uint256 SignatureHash(Script scriptCode, Transaction txTo, int nIn, SigHash nHashType, Money amount, HashVersion sigversion, PrecomputedTransactionData precomputedTransactionData)
 		{
-			if(sigversion == HashVersion.Witness)
+			// if(sigversion == HashVersion.Witness)
+			if ((nHashType & SigHash.ForkId) != 0)
 			{
-				if(amount == null)
+				nHashType = (SigHash)((int)nHashType & 0x1f);
+				if (amount == null)
 					throw new ArgumentException("The amount of the output being signed must be provided", "amount");
 				uint256 hashPrevouts = uint256.Zero;
 				uint256 hashSequence = uint256.Zero;
@@ -655,7 +665,8 @@ namespace NBitcoinBTG
 				// Locktime
 				sss.ReadWriteStruct(txTo.LockTime);
 				// Sighash type
-				sss.ReadWrite((uint)nHashType);
+				// sss.ReadWrite((uint)nHashType);
+				sss.ReadWrite((uint)nHashType | (uint)SigHash.ForkId | ((uint)(ForkId.FORKID_BTG) << 8));
 
 				return GetHash(sss);
 			}
